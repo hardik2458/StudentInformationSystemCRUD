@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">StudentInformationSystemCRUD</string>
+
+
+    <!--First Activity Text Strings-->
+    <string name="FillData">Fill Data</string>
+    <string name="Div">Div</string>
+    <string name="Result">Result</string>
+    <string name="Percentage">Percentage</string>
+
+    <!--Second Activity Form Tezt Hint and btn Text -->
+    <string name="fname">Enter First Name</string>
+    <string name="lname">Enter Last Name</string>
+    <string name="std">Enter Std</string>
+    <string name="div">Enter Division</string>
+    <string name="result">Enter Result</string>
+    <string name="percentage">Enter Percentage</string>
+    <string name="save">Save</string>
+
+    <!--Third Activity Division Text String-->
+    <string name="DivA">Div A</string>
+    <string name="DivB">Div B</string>
+    <string name="DivC">Div C</string>
+    <string name="DivD">Div D</string>
+    <string name="DivE">Div E</string>
+
+    <string name="PASS">Pass</string>
+    <string name="Fail">Fail</string>
+
+    <string name="less35" translatable="true">Less 35</string>
+    <string name="eual50"> =50</string>
+    <string name="grater50">Above 50</string>
+    <string name="less70">Less 70</string>
+    <string name="above90">Above 70</string>
+</resources>

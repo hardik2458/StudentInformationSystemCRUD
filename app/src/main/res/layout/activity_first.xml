@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbffff"
+    >
+
+    <ListView
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/lv"
+
+        android:layout_above="@+id/btnLessThna35"
+        />
+    <Button
+        android:layout_centerInParent="true"
+        android:text="@string/Div"
+        android:layout_above="@+id/btnEqual50"
+        android:id="@+id/btnLessThna35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+    android:layout_alignParentEnd="true"
+    android:id="@+id/btnPercentage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Percentage"
+    android:layout_toRightOf="@+id/btnLessThna35"
+    android:layout_below="@+id/lv"
+        android:layout_above="@+id/btnEqual50"/>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Result"
+        android:layout_toLeftOf="@+id/btnLessThna35"
+        android:layout_below="@+id/lv"
+        android:layout_above="@+id/btnEqual50"
+        android:layout_alignParentLeft="true"/>
+    <Button
+
+        android:id="@+id/btnEqual50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FillData"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

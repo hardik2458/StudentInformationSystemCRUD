@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffbb00"
+    >
+    <EditText
+        android:hint="@string/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:id="@+id/etFirstName"
+
+        />
+    <EditText
+        android:hint="@string/lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:id="@+id/etLastName"
+
+        />
+    <EditText
+        android:hint="@string/std"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="number"
+        android:id="@+id/etStd"
+        android:maxLength="2"
+        />
+
+    <EditText
+        android:hint="@string/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:maxLength="1"
+        android:inputType="textCapCharacters"
+        android:id="@+id/etDiv"
+
+        />
+
+    <EditText
+        android:hint="@string/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="text"
+        android:maxLength="4"
+        android:id="@+id/etResult"
+
+        />
+    <EditText
+        android:hint="@string/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="number"
+        android:maxLength="100"
+        android:id="@+id/etPercentage"
+
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"/>
+
+
+</LinearLayout>
